@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | Importing Business</title>
+    <link href="../tailwind.css" rel="stylesheet">
+    <link href="../styles.css" rel="stylesheet">
+</head>
+<body>
+    <header id="header" class="bg-gray-800 text-white p-4">
+        <h1 class="text-2xl">Importing Business</h1>
+        <nav id="desktopNav" class="hidden md:block">
+            <a href="../index.html" class="text-white p-2">Home</a>
+            <a href="about.html" class="text-white p-2">About</a>
+            <a href="contact.html" class="text-white p-2">Contact</a>
+            <a href="products.html" class="text-white p-2">Products</a>
+        </nav>
+        <nav id="mobileNav" class="md:hidden">
+            <a href="../index.html" class="text-white p-2">Home</a>
+            <a href="about.html" class="text-white p-2">About</a>
+            <a href="contact.html" class="text-white p-2">Contact</a>
+            <a href="products.html" class="text-white p-2">Products</a>
+        </nav>
+    </header>
+    <main id="main" class="p-4">
+        <h2 class="text-xl mb-4">Our Products</h2>
+        <div id="productList" class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="card">
+                <a href="products/jewelry.html">
+                    <img src="../assets/images/jewelry.jpg" alt="Jewelry">
+                    <h3 class="text-lg">Jewelry</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="products/fashion.html">
+                    <img src="../assets/images/fashion.jpg" alt="Fashion">
+                    <h3 class="text-lg">Fashion</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="products/home_goods.html">
+                    <img src="../assets/images/home_goods.jpg" alt="Home Goods">
+                    <h3 class="text-lg">Home Goods</h3>
+                </a>
+            </div>
+        </div>
+    </main>
+    <footer id="footer" class="bg-gray-800 text-white p-4 mt-8">
+        <p>&copy; 2022 Importing Business. All rights reserved.</p>
+    </footer>
+</body>
+</html>
