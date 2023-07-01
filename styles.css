@@ -1,0 +1,57 @@
+@import 'tailwind.css';
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    padding: 20px 0;
+    background-color: #f8f9fa;
+}
+
+.header .logo {
+    font-size: 1.5em;
+    color: #343a40;
+}
+
+.nav {
+    margin: 20px 0;
+}
+
+.nav a {
+    color: #495057;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.nav a:hover {
+    color: #212529;
+}
+
+.main {
+    padding: 20px 0;
+}
+
+.footer {
+    padding: 20px 0;
+    background-color: #f8f9fa;
+}
+
+.footer p {
+    color: #868e96;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .nav a {
+        margin: 10px 0;
+    }
+}
